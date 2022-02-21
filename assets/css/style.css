@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+body {
+  font-family: "Yu Gothic、游ゴシック";
+  letter-spacing: 0.1em;
+  font-size: 16px;
+}
+button {
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#main {
+  background-image: url(/assets/images/mainimg.jpg);
+  height: 100vh;
+}
+.main-inner {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.menu {
+  display: flex;
+}
+.logo::before {
+  position: absolute;
+  left: -55px;
+  top: 5px;
+  content: "S";
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  background: #b861ff;
+  background: linear-gradient(to right, #521edd 0%, #7d12d7 100%);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.logo {
+  position: relative;
+  margin-left: 55px;
+  padding: 15px 0;
+  color: #fff;
+}
+.menu nav {
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  padding: 0 25px;
+}
+.menu ul li a {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: #fff;
+}
+h1 span {
+  background: -webkit-linear-gradient(
+    left,
+    #4720de 0%,
+    #661edc 50%,
+    #841eda 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.requestBtn {
+  background: #000;
+  border: 1px solid #9f9f9f;
+  color: #9f9f9f;
+}
+.requestBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.openBtn {
+  display: none;
+}
+.closeBtn {
+  display: none;
+}
+.mainMessageTitle {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.mainMessage {
+  color: #9f9f9f;
+  text-align: center;
+}
+.trialBtn {
+  display: block;
+  background: #b861ff;
+  background: linear-gradient(to right, #521edd 0%, #7d12d7 100%);
+  margin: 70px auto 0 auto;
+  color: #fff;
+}
+.trialBtn::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0a9";
+  margin-left: 35px;
+}
+.trialBtn:hover {
+  transform: scale(1.05);
+}
+#item {
+  position: relative;
+  display: block;
+  background: #fafafa;
+  height: 250px;
+}
+.item-inner {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.itemBox {
+  background: #fff;
+  width: 570px;
+  padding: 60px;
+  border-radius: 25px;
+  margin: 0 8px;
+  -moz-box-shadow: -2px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -2px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: -2px 10px 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 20px 5px rgba(0, 0, 0, 0.1);
+}
+.itemBox h2 {
+  margin-bottom: 15px;
+  color: #5f5f5f;
+  position: relative;
+  padding-left: 50px;
+}
+.cloud::before {
+  position: absolute;
+  left: -30px;
+  top: -15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0c2";
+  color: #7d12d7;
+  font-size: 1.5rem;
+  margin-left: 35px;
+}
+.video::before {
+  position: absolute;
+  left: -30px;
+  top: -15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f144";
+  color: #7d12d7;
+  font-size: 1.5rem;
+  margin-left: 35px;
+}
+.itemBox p {
+  margin-bottom: 20px;
+  color: #9f9f9f;
+}
+.itemBox a {
+  text-decoration: none;
+  color: #7d12d7;
+}
+#platform {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.platformimg1 {
+  width: 50%;
+  text-align: center;
+  padding: 40px 0;
+}
+.platformimg1 img {
+  width: 80%;
+  height: auto;
+}
+.platformMessage-inner {
+  border: 1px solid #fff;
+  width: 50%;
+  padding: 80px 50px 50px 50px;
+}
+.orange {
+  color: #f08300;
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.platformMessage-inner h1 {
+  color: #000;
+  text-align: left;
+}
+.platformMessage {
+  margin: 30px 0;
+}
