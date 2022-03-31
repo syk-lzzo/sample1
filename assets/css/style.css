@@ -20,9 +20,17 @@ h2 {
   font-size: 2.5rem;
 }
 
-#main {
+.main-bk {
   background-image: url(/assets/images/mainimg.jpg);
   background-size: cover;
+  height: 630px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#main {
   height: 630px;
 }
 .main-inner {
@@ -220,7 +228,8 @@ h1 span {
 /* スマホ用 */
 @media screen and (max-width: 480px) {
   body {
-    width: 480px;
+    width: 100%;
+    /* width: 480px; */
   }
   h1 {
     font-size: 1.8rem;
